@@ -127,7 +127,7 @@ require([
 
   // ------------------------------------------------------------------ main
   async function init() {
-    $("appTitle").textContent = CFG.title || "Charlotte Office Map";
+    $("appTitle").textContent = CFG.title || "Gerard's Gold Mine";
     $("appSubtitle").textContent = CFG.subtitle || "";
     $("sigHoldYrs").textContent = HOLD;
     $("sdkVersion").textContent = `Map software: ArcGIS Maps SDK for JavaScript ${kernel.fullVersion || kernel.version}.`;
@@ -457,7 +457,7 @@ require([
       if (placeholder(CFG.reportEmail)) return null;
       const link = `${location.origin}${location.pathname}?pid=${encodeURIComponent(a.pid || "")}`;
       const body = `Property id: ${a.pid || ""}\nAddress: ${[a.site_address, a.site_city, a.state].filter(Boolean).join(", ")}\nOwner shown: ${a.owner || ""}\nLink: ${link}\n\nWhat is wrong:\n`;
-      return `mailto:${CFG.reportEmail}?subject=${encodeURIComponent("Charlotte Office Map data problem")}&body=${encodeURIComponent(body)}`;
+      return `mailto:${CFG.reportEmail}?subject=${encodeURIComponent(CFG.title + " data problem")}&body=${encodeURIComponent(body)}`;
     }
     function saleDate(s, precision, long) {
       if (!s) return "";
@@ -862,7 +862,7 @@ require([
       const blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
-      a.download = `Charlotte Office Map ${label} ${new Date().toISOString().slice(0, 10)}.csv`;
+      a.download = `${CFG.title} ${label} ${new Date().toISOString().slice(0, 10)}.csv`;
       document.body.appendChild(a); a.click(); a.remove();
       setTimeout(() => URL.revokeObjectURL(a.href), 5000);
       toast(`Exported ${nf(lines.length - 1)} rows.`);
@@ -1006,7 +1006,7 @@ require([
     lines.push(`<p class="hint">Maintained by ${esc(c.name)}. Send data fixes, missing properties and feature requests.</p>`);
     $("contactCard").innerHTML = lines.join("");
     if (!placeholder(CFG.reportEmail)) {
-      $("reportLink").href = `mailto:${CFG.reportEmail}?subject=${encodeURIComponent("Charlotte Office Map data problem")}&body=${encodeURIComponent("Page: " + location.href + "\n\nWhat is wrong:\n")}`;
+      $("reportLink").href = `mailto:${CFG.reportEmail}?subject=${encodeURIComponent(CFG.title + " data problem")}&body=${encodeURIComponent("Page: " + location.href + "\n\nWhat is wrong:\n")}`;
       $("reportLink").hidden = false;
     }
   }

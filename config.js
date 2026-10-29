@@ -1,6 +1,6 @@
 // Charlotte Office Map settings. Edit this file to change the contact card or add county GIS links; no build step.
 window.OFFICE_MAP_CONFIG = {
-  title: "Charlotte Office Map",
+  title: "Gerard's Gold Mine",
   subtitle: "Industrial, hospitality, net lease and strip centers in VA, NC and SC",
   contact: {
     name: "Anthony Warren",
