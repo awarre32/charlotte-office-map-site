@@ -1,4 +1,4 @@
-// Charlotte Office Map settings. Edit this file to change the contact card or add county GIS links; no build step.
+// Gerard's Gold Mine settings. Edit this file to change the contact card or add county GIS links; no build step.
 window.OFFICE_MAP_CONFIG = {
   title: "Gerard's Gold Mine",
   subtitle: "Industrial, hospitality, net lease and strip centers in VA, NC and SC",
@@ -14,7 +14,7 @@ window.OFFICE_MAP_CONFIG = {
   // Optional freshness notes for layers the data does not date itself, e.g. "Parcels: NC OneMap Oct 2026, VGIN Sep 2026".
   freshnessNote: "",
   // Method panel sentence on the 200-property hand check (to be replaced with the final hit rates after the rebuild).
-  handCheck: "An independent check of 200 randomly drawn properties found the class right 75 percent of the time on the first set of rules. After the rules were fixed, 96 percent of those same 200 are right; a fresh sample will likely score somewhat lower, in the high 80s.",
+  handCheck: "An independent check of 200 randomly drawn properties found the class right 75 percent of the time on the first set of rules. After the rules were fixed, a second check of 200 new properties found the class right 87 percent of the time (Net Lease 98, Industrial 86, Hospitality 86, Strip Center 76). Strip centers are the weakest: some flex buildings, dealerships and big boxes still land there.",
   // Full names for the short source codes in the data (shown on cards, in the Method panel and the freshness line).
   sourceNames: {
     "NC1MAP+OVT2610": "NC OneMap statewide parcels; Overture Maps Oct 2026",
@@ -36,5 +36,10 @@ window.OFFICE_MAP_CONFIG = {
   binsUntilScale: 1500000,
   binLevel: 4,
   // CSV export stops here; narrow the filters for more.
-  exportMax: 50000
+  exportMax: 50000,
+  // Theme: class colors on the map, cards and tables (keep them apart from the gold accent; check 4.5:1 for white chip text).
+  classColors: { "Industrial": "#4f6d9a", "Hospitality": "#c0532b", "Net Lease": "#138a82", "Strip Center": "#a3478a" },
+  classChipColors: { "Net Lease": "#0f7770" },
+  // Rent Guide grid (asking rents): set to "data/rentguide.geojson" once that file is published with the page; null keeps the toggle hidden.
+  rentGuide: null
 };

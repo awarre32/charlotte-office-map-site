@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gerard's Gold Mine</title>
   <meta name="robots" content="noindex, nofollow">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314284b'/%3E%3Ccircle cx='16' cy='14' r='6' fill='none' stroke='white' stroke-width='3'/%3E%3Cpath d='M16 20 L16 27' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+  <meta name="description" content="Industrial, hospitality, net lease and strip center properties in Virginia, North Carolina and South Carolina, with owners, listings, recent sales and site facts from public records.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='#1f1912'/%3E%3Cpath d='M9.5 27 L24.6 9.4' stroke='#c49a63' stroke-width='2.8' stroke-linecap='round'/%3E%3Cpath d='M18.6 5 Q27 6.4 29.8 14.6' stroke='#e8e2d6' stroke-width='3.4' stroke-linecap='round' fill='none'/%3E%3Cpath d='M3.6 25.6 L7 20.5 L12.6 19.3 L16.6 22.4 L15.6 27.6 L9.8 29.4 L5 28.5 Z' fill='#e0a82e' stroke='#f3cf6a' stroke-width='.9' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#1f1912">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="https://js.arcgis.com/4.34/esri/themes/light/main.css">
   <link rel="stylesheet" href="app.css">
   <script src="config.js"></script>
@@ -14,13 +19,16 @@
 </head>
 <body data-sheet="peek">
   <header id="topbar">
-    <button id="panelToggle" class="icon-btn" aria-label="Show or hide the filter panel" title="Filters">&#9776;</button>
+    <button id="panelToggle" class="icon-btn" aria-label="Show or hide the filter panel" title="Filters"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5.5h14M3 10h14M3 14.5h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg></button>
     <div class="brand">
-      <h1 id="appTitle">Gerard's Gold Mine</h1>
-      <span id="appSubtitle"></span>
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="ggmNug" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7dc84"/><stop offset=".55" stop-color="#e0a82e"/><stop offset="1" stop-color="#9c6d12"/></linearGradient></defs><path d="M9.5 27 L24.6 9.4" stroke="#c49a63" stroke-width="2.6" stroke-linecap="round"/><path d="M18.6 5 Q27 6.4 29.8 14.6" stroke="#e8e2d6" stroke-width="3.2" stroke-linecap="round" fill="none"/><path d="M3.6 25.6 L7 20.5 L12.6 19.3 L16.6 22.4 L15.6 27.6 L9.8 29.4 L5 28.5 Z" fill="url(#ggmNug)" stroke="#7a5200" stroke-width=".9" stroke-linejoin="round"/><path d="M7 20.5 L10.4 24.1 L12.6 19.3 M10.4 24.1 L15.6 27.6 M10.4 24.1 L5 28.5" stroke="#fff3c4" stroke-opacity=".6" stroke-width=".75" fill="none"/></svg></span>
+      <div class="brand-text">
+        <h1 id="appTitle">Gerard's Gold Mine</h1>
+        <span id="appSubtitle"></span>
+      </div>
     </div>
     <div id="searchSlot"></div>
-    <button id="cartBtn" class="cart-btn" type="button" title="Call list">Call list <span id="cartCount">0</span></button>
+    <button id="cartBtn" class="cart-btn" type="button" title="Call list" aria-label="Call list"><svg class="nugget-ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 10.5 L4.2 6.4 L8.6 5.2 L12.6 6.8 L14.2 10.6 L11.8 13.4 L6 13.8 L2.8 12.6 Z" fill="#e0a82e" stroke="#7a5200" stroke-width="1" stroke-linejoin="round"/><path d="M4.2 6.4 L7 9.4 L8.6 5.2 M7 9.4 L11.8 13.4 M7 9.4 L12.6 6.8 M7 9.4 L2.8 12.6" stroke="#fff3c4" stroke-opacity=".7" stroke-width=".8" fill="none"/></svg><span class="lbl">Call list</span> <span id="cartCount">0</span></button>
   </header>
 
   <main id="main">
@@ -42,9 +50,11 @@
             <li>Tap a property for owner and site facts; add it to your call list and export.</li>
           </ol>
         </div>
+        <div class="sec-head"><h2>Asset classes</h2></div>
         <div id="classButtons" class="class-grid" role="group" aria-label="Asset classes"></div>
 
-        <div class="primary">
+        <div class="sec-head"><h2>Filters</h2><button id="resetFilters" class="link-btn" type="button">Reset filters</button></div>
+        <div class="group primary">
           <div class="grid2">
             <label>State<select id="fState"><option value="">All</option><option>VA</option><option>NC</option><option>SC</option></select></label>
             <label>County<select id="fCounty"><option value="">All</option></select></label>
@@ -68,7 +78,6 @@
             <button type="button" class="sig" data-sig="oos" aria-pressed="false">Out of state</button>
             <button type="button" class="sig" data-sig="high" aria-pressed="false">Seller score High</button>
           </div>
-        </div>
 
         <details id="moreFilters">
           <summary>More filters <span id="moreCount"></span></summary>
@@ -77,11 +86,11 @@
             <label>Owner type<select id="fOwnerType"><option value="">All</option></select></label>
             <label>Owner name contains<input id="fOwner" type="text" placeholder="e.g. HOLDINGS"></label>
             <label>Hold years at least<input id="fHold" type="number" min="0" step="1" inputmode="numeric" placeholder="e.g. 20"></label>
-            <label>Acres from<input id="fAcMin" type="number" min="0" step="0.1" inputmode="decimal"></label>
-            <label>Acres to<input id="fAcMax" type="number" min="0" step="0.1" inputmode="decimal"></label>
-            <label>Building SF from<input id="fSfMin" type="number" min="0" step="1000" inputmode="numeric"></label>
-            <label>Building SF to<input id="fSfMax" type="number" min="0" step="1000" inputmode="numeric"></label>
-            <label>Listed for sale<select id="fListed"><option value="">Any</option><option value="listed">Listed or under contract</option><option value="Yes">Listed (active)</option><option value="Under contract">Under contract</option><option value="No">Not listed</option></select></label>
+            <label>Acres from<input id="fAcMin" type="number" min="0" step="0.1" inputmode="decimal" placeholder="e.g. 2"></label>
+            <label>Acres to<input id="fAcMax" type="number" min="0" step="0.1" inputmode="decimal" placeholder="e.g. 10"></label>
+            <label>Building SF from<input id="fSfMin" type="number" min="0" step="1000" inputmode="numeric" placeholder="e.g. 10000"></label>
+            <label>Building SF to<input id="fSfMax" type="number" min="0" step="1000" inputmode="numeric" placeholder="e.g. 100000"></label>
+            <label>Listed for sale<select id="fListed"><option value="">Any</option><option value="listed">Listed or under contract</option><option value="Yes">Listed, active</option><option value="Under contract">Under contract</option><option value="No">Not listed</option></select></label>
             <label id="rowAadt" hidden>AADT at least<input id="fAadt" type="number" min="0" step="1000" inputmode="numeric" placeholder="e.g. 20000"></label>
             <label id="rowPipe" hidden>Pipeline within 2 mi<select id="fPipe"><option value="">Any</option><option value="yes">At least one</option><option value="none">None</option></select></label>
           </div>
@@ -93,14 +102,18 @@
             <label class="chip"><input type="checkbox" class="fScore" value="Not scored">Not scored</label>
           </div>
         </details>
-        <div class="row-end"><button id="resetFilters" class="link-btn" type="button">Reset filters</button></div>
+        </div>
 
-        <h2>Layers</h2>
-        <label class="toggle"><input type="checkbox" id="tglListings" checked><span class="swatch diamond"></span>Crexi listings</label>
-        <label class="toggle" id="rowTglPipeline" hidden><input type="checkbox" id="tglPipeline" checked><span class="swatch square"></span>Development pipeline</label>
-        <label class="toggle" id="rowTglComps" hidden><input type="checkbox" id="tglComps"><span class="swatch tri"></span>Recent sales (24 months)</label>
-        <label class="toggle" id="rowTglTraffic" hidden><input type="checkbox" id="tglTraffic"><span class="swatch dot"></span>Traffic counts (AADT)</label>
-        <label class="toggle"><input type="checkbox" id="tglCounties" checked><span class="swatch outline"></span>Counties</label>
+        <div class="sec-head"><h2>Layers</h2><span class="hint">Filters apply to properties only</span></div>
+        <div class="group layers">
+        <label class="toggle"><span class="swatch diamond"></span><span class="tl">Crexi listings</span><input type="checkbox" id="tglListings" checked></label>
+        <label class="toggle" id="rowTglPipeline" hidden><span class="swatch square"></span><span class="tl">Development pipeline</span><input type="checkbox" id="tglPipeline"></label>
+        <label class="toggle" id="rowTglComps" hidden><span class="swatch tri"></span><span class="tl">Recent sales (24 months)</span><input type="checkbox" id="tglComps"></label>
+        <label class="toggle" id="rowTglLeases" hidden><span class="swatch dot lease"></span><span class="tl">For lease (Crexi asking rents)</span><input type="checkbox" id="tglLeases"></label>
+        <label class="toggle" id="rowTglRent" hidden><span class="swatch outline rent"></span><span class="tl">Rent Guide (asking $/SF, retail)</span><input type="checkbox" id="tglRent"></label>
+        <label class="toggle" id="rowTglTraffic" hidden><span class="swatch dot"></span><span class="tl">Traffic counts (AADT)</span><input type="checkbox" id="tglTraffic"></label>
+        <label class="toggle"><span class="swatch outline"></span><span class="tl">Counties</span><input type="checkbox" id="tglCounties" checked></label>
+        </div>
 
         <div id="portfolioBar" class="banner" hidden>
           <span>Owner portfolio: <strong id="portfolioName"></strong> (<span id="portfolioCount"></span>)</span>
@@ -111,15 +124,15 @@
       <section id="tab-area" class="tab" role="tabpanel" aria-labelledby="tabBtn-area">
         <h2>Count what is inside an area</h2>
         <p class="hint">Uses the current filters. Draw a shape, or set a radius and tap the map.</p>
-        <div class="actions wrap">
-          <label class="inline">Radius<input id="radiusMi" type="number" min="0.1" step="0.5" value="3" inputmode="decimal"> mi</label>
-          <button id="drawRadius" type="button" class="btn">Radius: tap map</button>
-          <button id="drawCircle" type="button" class="btn">Draw circle</button>
-          <button id="drawPolygon" type="button" class="btn">Draw polygon</button>
-          <button id="finishShape" type="button" class="btn armed" hidden>Finish shape</button>
-          <button id="clearArea" type="button" class="btn ghost">Clear</button>
+        <div class="group">
+        <div class="area-tools">
+          <div class="row"><label class="inline">Radius<input id="radiusMi" type="number" min="0.1" step="0.5" value="3" inputmode="decimal"> mi</label>
+            <button id="drawRadius" type="button" class="btn primary">Tap the map for a radius</button></div>
+          <div class="seg" role="group" aria-label="Draw a shape"><button id="drawCircle" type="button">Draw circle</button><button id="drawPolygon" type="button">Draw polygon</button></div>
+          <div class="row"><button id="finishShape" type="button" class="btn armed" hidden>Finish shape</button><button id="clearArea" type="button" class="link-btn">Clear the area</button></div>
         </div>
         <div id="areaStatus" class="hint"></div>
+        </div>
         <div id="areaStats"></div>
         <div class="actions wrap" id="areaActions" hidden>
           <button id="areaTable" type="button" class="btn">Show properties</button>
@@ -128,8 +141,9 @@
       </section>
 
       <section id="tab-about" class="tab" role="tabpanel" aria-labelledby="tabBtn-about">
+        <p class="about-intro">Gerard's Gold Mine maps industrial, hospitality, net lease and strip center properties in Virginia, North Carolina and South Carolina for the Charlotte office, built from public records and Crexi listing facts.</p>
         <h2>Data freshness</h2>
-        <p id="freshAbout" class="fresh-about"></p>
+        <div id="freshAbout" class="fresh-about"></div>
         <p class="about-links"><a id="reportLink" href="#" hidden>Report a data problem</a> <button type="button" id="howToShow" class="link-btn">How to use this map</button></p>
         <h2>Method and sources</h2>
         <div id="methodText"></div>
@@ -144,12 +158,14 @@
           <button id="showTable" type="button" class="foot-btn">Show table</button>
           <button id="exportProps" type="button" class="foot-btn primary" title="Export every property that matches the filters">Export CSV</button>
         </div>
+        <div id="exportHint" class="foot-hint" hidden>Exports are limited to 50,000 rows. Narrow the filters or draw an area to export.</div>
         <button type="button" id="freshShort" class="fresh-short"></button>
       </footer>
     </aside>
 
     <div id="mapWrap">
       <div id="viewDiv"></div>
+      <div id="loading" class="loading" role="status" aria-live="polite"><span class="spin" aria-hidden="true"></span><span id="loadingText">Digging up properties...</span></div>
       <section id="drawer" aria-label="Results table" hidden>
         <div class="drawer-head">
           <div class="seg" role="group" aria-label="Table view">

@@ -1,0 +1,3509 @@
+{
+ "note": "Brand logos identify the tenant or hotel brand only. Built by data/logos/process_logos.py.",
+ "logos": {
+  "dollar-general": {
+   "brand": "Dollar General",
+   "kind": "net lease tenant",
+   "properties": 1533,
+   "pin": "pin/dollar-general.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/dollar-general.png",
+   "names": [
+    "Dollar General"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/0/05/Dollar_General_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "us-postal-service": {
+   "brand": "US Postal Service",
+   "kind": "net lease tenant",
+   "properties": 873,
+   "pin": "pin/us-postal-service.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/us-postal-service.png",
+   "names": [
+    "US Postal Service"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/5a/USPS_-_Color_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "mcdonald-s": {
+   "brand": "McDonald's",
+   "kind": "net lease tenant",
+   "properties": 839,
+   "pin": "pin/mcdonald-s.png",
+   "pinW": 41,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 23.0,
+   "barY": 7.5,
+   "tileW": 35,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/mcdonald-s.png",
+   "names": [
+    "McDonald's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "exxon-mobil": {
+   "brand": "Exxon Mobil",
+   "kind": "net lease tenant",
+   "properties": 747,
+   "pin": "pin/exxon-mobil.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/exxon-mobil.png",
+   "names": [
+    "Exxon Mobil"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/1/18/Exxon_Mobil_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "food-lion": {
+   "brand": "Food Lion",
+   "kind": "grocery anchor",
+   "properties": 699,
+   "pin": "pin/food-lion.png",
+   "pinW": 40,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.5,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/food-lion.png",
+   "names": [
+    "Food Lion"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Food_Lion_logo.svg"
+  },
+  "7-eleven": {
+   "brand": "7-Eleven",
+   "kind": "net lease tenant",
+   "properties": 668,
+   "pin": "pin/7-eleven.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/7-eleven.png",
+   "names": [
+    "7-Eleven"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/7-Eleven_logo_2021.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "shell": {
+   "brand": "Shell",
+   "kind": "net lease tenant",
+   "properties": 655,
+   "pin": "pin/shell.png",
+   "pinW": 40,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.5,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/shell.png",
+   "names": [
+    "Shell"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Shell_logo.svg"
+  },
+  "hilton": {
+   "brand": "Hilton",
+   "kind": "hotel family",
+   "properties": 625,
+   "pin": "pin/hilton.png",
+   "pinW": 72,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 54.0,
+   "barY": 7.5,
+   "tileW": 66,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/hilton.png",
+   "family": "Hilton",
+   "contains": [
+    "HILTON"
+   ],
+   "exclude": [
+    "HILTON HEAD"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Hilton_Worldwide_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "cvs-pharmacy": {
+   "brand": "CVS Pharmacy",
+   "kind": "net lease tenant",
+   "properties": 527,
+   "pin": "pin/cvs-pharmacy.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/cvs-pharmacy.png",
+   "names": [
+    "CVS Pharmacy"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/9f/CVS_Logo_2016.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "wendy-s": {
+   "brand": "Wendy's",
+   "kind": "net lease tenant",
+   "properties": 526,
+   "pin": "pin/wendy-s.png",
+   "pinW": 42,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 23.5,
+   "barY": 7.5,
+   "tileW": 35,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wendy-s.png",
+   "names": [
+    "Wendy's"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Wendy%27s_full_logo_2012.svg"
+  },
+  "bp": {
+   "brand": "BP",
+   "kind": "net lease tenant",
+   "properties": 520,
+   "pin": "pin/bp.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/bp.png",
+   "names": [
+    "BP"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:BP_Helios_logo.svg"
+  },
+  "walgreens": {
+   "brand": "Walgreens",
+   "kind": "net lease tenant",
+   "properties": 484,
+   "pin": "pin/walgreens.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/walgreens.png",
+   "names": [
+    "Walgreens"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Walgreens_2020_primary_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "family-dollar": {
+   "brand": "Family Dollar",
+   "kind": "net lease tenant",
+   "properties": 475,
+   "pin": "pin/family-dollar.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/family-dollar.png",
+   "names": [
+    "Family Dollar"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Family_Dollar_logo.svg"
+  },
+  "taco-bell": {
+   "brand": "Taco Bell",
+   "kind": "net lease tenant",
+   "properties": 465,
+   "pin": "pin/taco-bell.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/taco-bell.png",
+   "names": [
+    "Taco Bell"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Taco_Bell_2023.svg"
+  },
+  "hardee-s": {
+   "brand": "Hardee's",
+   "kind": "net lease tenant",
+   "properties": 461,
+   "pin": "pin/hardee-s.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/hardee-s.png",
+   "names": [
+    "Hardee's"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Hardee%27s_logo_since_2022.svg"
+  },
+  "bojangles": {
+   "brand": "Bojangles",
+   "kind": "net lease tenant",
+   "properties": 456,
+   "pin": "pin/bojangles.png",
+   "pinW": 77,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 59.0,
+   "barY": 7.5,
+   "tileW": 71,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/bojangles.png",
+   "names": [
+    "Bojangles"
+   ],
+   "source": "https://storyblok.pleinaircdn.com/f/110020/611x208/e3dc5e1898/bojangles_brandmark_logo.svg"
+  },
+  "wyndham": {
+   "brand": "Wyndham",
+   "kind": "hotel family",
+   "properties": 439,
+   "pin": "pin/wyndham.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wyndham.png",
+   "family": "Wyndham",
+   "contains": [
+    "WYNDHAM"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Wyndham_Hotels_%26_Resorts_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "burger-king": {
+   "brand": "Burger King",
+   "kind": "net lease tenant",
+   "properties": 420,
+   "pin": "pin/burger-king.png",
+   "pinW": 37,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.5,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/burger-king.png",
+   "names": [
+    "Burger King"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Burger_King_2020.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "advance-auto-parts": {
+   "brand": "Advance Auto Parts",
+   "kind": "net lease tenant",
+   "properties": 411,
+   "pin": "pin/advance-auto-parts.png",
+   "pinW": 70,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 52.0,
+   "barY": 7.5,
+   "tileW": 64,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/advance-auto-parts.png",
+   "names": [
+    "Advance Auto Parts"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Advance_Auto_Parts_Logo_%282024%29.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "truist": {
+   "brand": "Truist",
+   "kind": "net lease tenant",
+   "properties": 404,
+   "pin": "pin/truist.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/truist.png",
+   "names": [
+    "Truist"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Truist_Financial_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "autozone": {
+   "brand": "AutoZone",
+   "kind": "net lease tenant",
+   "properties": 355,
+   "pin": "pin/autozone.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/autozone.png",
+   "names": [
+    "AutoZone"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:AutoZone_logo.svg"
+  },
+  "waffle-house": {
+   "brand": "Waffle House",
+   "kind": "net lease tenant",
+   "properties": 345,
+   "pin": "pin/waffle-house.png",
+   "pinW": 80,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 62.0,
+   "barY": 7.5,
+   "tileW": 74,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/waffle-house.png",
+   "names": [
+    "Waffle House"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Waffle_House_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "o-reilly-auto-parts": {
+   "brand": "O'Reilly Auto Parts",
+   "kind": "net lease tenant",
+   "properties": 335,
+   "pin": "pin/o-reilly-auto-parts.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/o-reilly-auto-parts.png",
+   "names": [
+    "O'Reilly Auto Parts"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/a5/O%27Reilly_Auto_Parts_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "circle-k": {
+   "brand": "Circle K",
+   "kind": "net lease tenant",
+   "properties": 325,
+   "pin": "pin/circle-k.png",
+   "pinW": 71,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 53.0,
+   "barY": 7.5,
+   "tileW": 65,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/circle-k.png",
+   "names": [
+    "Circle K"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle_K_logo_2015.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "starbucks": {
+   "brand": "Starbucks",
+   "kind": "net lease tenant",
+   "properties": 318,
+   "pin": "pin/starbucks.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/starbucks.png",
+   "names": [
+    "Starbucks"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Starbucks_Corporation_Logo_2011.svg"
+  },
+  "kfc": {
+   "brand": "KFC",
+   "kind": "net lease tenant",
+   "properties": 283,
+   "pin": "pin/kfc.png",
+   "pinW": 40,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.5,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/kfc.png",
+   "names": [
+    "KFC"
+   ],
+   "source": "https://cdn.sanity.io/images/kbqq3e0r/production/afcc23c7797d1ad1d55bd0e200e2128cfe163eba-4096x3802.png"
+  },
+  "chick-fil-a": {
+   "brand": "Chick-fil-A",
+   "kind": "net lease tenant",
+   "properties": 282,
+   "pin": "pin/chick-fil-a.png",
+   "pinW": 63,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 44.5,
+   "barY": 7.5,
+   "tileW": 56,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/chick-fil-a.png",
+   "names": [
+    "Chick-fil-A"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chick-fil-A_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "dunkin": {
+   "brand": "Dunkin'",
+   "kind": "net lease tenant",
+   "properties": 263,
+   "pin": "pin/dunkin.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/dunkin.png",
+   "names": [
+    "Dunkin'"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/1/14/Dunkin%27_2022.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "marathon": {
+   "brand": "Marathon",
+   "kind": "net lease tenant",
+   "properties": 257,
+   "pin": "pin/marathon.png",
+   "pinW": 43,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 25.0,
+   "barY": 7.5,
+   "tileW": 37,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/marathon.png",
+   "names": [
+    "Marathon"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/24/Marathon_Petroleum_logo_2022.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "speedway": {
+   "brand": "Speedway",
+   "kind": "net lease tenant",
+   "properties": 257,
+   "pin": "pin/speedway.png",
+   "pinW": 39,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.0,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/speedway.png",
+   "names": [
+    "Speedway"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Speedway_LLC_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "arby-s": {
+   "brand": "Arby's",
+   "kind": "net lease tenant",
+   "properties": 250,
+   "pin": "pin/arby-s.png",
+   "pinW": 42,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 23.5,
+   "barY": 7.5,
+   "tileW": 35,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/arby-s.png",
+   "names": [
+    "Arby's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Arby%27s_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "hampton": {
+   "brand": "Hampton",
+   "kind": "hotel flag",
+   "properties": 243,
+   "pin": "pin/hampton.png",
+   "pinW": 50,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 32.0,
+   "barY": 7.5,
+   "tileW": 44,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/hampton.png",
+   "prefixes": [
+    "Hampton Inn",
+    "Hampton by Hilton"
+   ],
+   "family": "Hilton",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/28/Hampton-by-Hilton-Logo-Color.png"
+  },
+  "goodwill": {
+   "brand": "Goodwill",
+   "kind": "net lease tenant",
+   "properties": 242,
+   "pin": "pin/goodwill.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/goodwill.png",
+   "names": [
+    "Goodwill"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Goodwill_Industries_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "dollar-tree": {
+   "brand": "Dollar Tree",
+   "kind": "net lease tenant",
+   "properties": 208,
+   "pin": "pin/dollar-tree.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/dollar-tree.png",
+   "names": [
+    "Dollar Tree"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Dollar_Tree_logo.svg"
+  },
+  "sherwin-williams": {
+   "brand": "Sherwin-Williams",
+   "kind": "net lease tenant",
+   "properties": 207,
+   "pin": "pin/sherwin-williams.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/sherwin-williams.png",
+   "names": [
+    "Sherwin-Williams"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sherwin_Williams.svg"
+  },
+  "sheetz": {
+   "brand": "Sheetz",
+   "kind": "net lease tenant",
+   "properties": 193,
+   "pin": "pin/sheetz.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/sheetz.png",
+   "names": [
+    "Sheetz"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sheetz_logo_%282024%29.svg"
+  },
+  "citgo": {
+   "brand": "Citgo",
+   "kind": "net lease tenant",
+   "properties": 191,
+   "pin": "pin/citgo.png",
+   "pinW": 37,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.5,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/citgo.png",
+   "names": [
+    "Citgo"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Citgo_logo.svg"
+  },
+  "state-employees-credit-union": {
+   "brand": "State Employees' Credit Union",
+   "kind": "net lease tenant",
+   "properties": 188,
+   "pin": "pin/state-employees-credit-union.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/state-employees-credit-union.png",
+   "names": [
+    "State Employees' Credit Union"
+   ],
+   "source": "https://www.ncsecu.org/content/experience-fragments/ncsecu/us/en/site/header/master/_jcr_content/root/headernavigation/logo.coreimg.svg/1780946461945/seculogo.svg"
+  },
+  "pizza-hut": {
+   "brand": "Pizza Hut",
+   "kind": "net lease tenant",
+   "properties": 182,
+   "pin": "pin/pizza-hut.png",
+   "pinW": 42,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 24.0,
+   "barY": 7.5,
+   "tileW": 36,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/pizza-hut.png",
+   "names": [
+    "Pizza Hut"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pizza_Hut_2025.svg"
+  },
+  "cook-out": {
+   "brand": "Cook Out",
+   "kind": "net lease tenant",
+   "properties": 180,
+   "pin": "pin/cook-out.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/cook-out.png",
+   "names": [
+    "Cook Out"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Cook_Out_logo.svg"
+  },
+  "valero": {
+   "brand": "Valero",
+   "kind": "net lease tenant",
+   "properties": 175,
+   "pin": "pin/valero.png",
+   "pinW": 46,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 28.0,
+   "barY": 7.5,
+   "tileW": 40,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/valero.png",
+   "names": [
+    "Valero"
+   ],
+   "source": "https://www.valero.com/themes/custom/valero/logo.svg"
+  },
+  "aldi": {
+   "brand": "ALDI",
+   "kind": "net lease tenant",
+   "properties": 166,
+   "pin": "pin/aldi.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/aldi.png",
+   "names": [
+    "ALDI"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/ALDI_SUD.svg"
+  },
+  "sonic": {
+   "brand": "Sonic",
+   "kind": "net lease tenant",
+   "properties": 161,
+   "pin": "pin/sonic.png",
+   "pinW": 56,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 38.0,
+   "barY": 7.5,
+   "tileW": 50,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/sonic.png",
+   "names": [
+    "Sonic"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SONIC_New_Logo_2020.svg"
+  },
+  "holiday-inn": {
+   "brand": "Holiday Inn",
+   "kind": "hotel flag",
+   "properties": 156,
+   "pin": "pin/holiday-inn.png",
+   "pinW": 40,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.5,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/holiday-inn.png",
+   "prefixes": [
+    "Holiday Inn"
+   ],
+   "family": "IHG",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holiday_Inn_by_IHG_logo.svg"
+  },
+  "napa-auto-parts": {
+   "brand": "NAPA Auto Parts",
+   "kind": "net lease tenant",
+   "properties": 153,
+   "pin": "pin/napa-auto-parts.png",
+   "pinW": 41,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 22.5,
+   "barY": 7.5,
+   "tileW": 34,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/napa-auto-parts.png",
+   "names": [
+    "NAPA Auto Parts"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/b/b7/NAPA_Auto_Parts_logo.svg"
+  },
+  "jiffy-lube": {
+   "brand": "Jiffy Lube",
+   "kind": "net lease tenant",
+   "properties": 150,
+   "pin": "pin/jiffy-lube.png",
+   "pinW": 50,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 31.5,
+   "barY": 7.5,
+   "tileW": 43,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/jiffy-lube.png",
+   "names": [
+    "Jiffy Lube"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jiffy_lube_brand_logo.png"
+  },
+  "domino-s": {
+   "brand": "Domino's",
+   "kind": "net lease tenant",
+   "properties": 149,
+   "pin": "pin/domino-s.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/domino-s.png",
+   "names": [
+    "Domino's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/64/Domino%27s_2025.svg"
+  },
+  "valvoline": {
+   "brand": "Valvoline",
+   "kind": "net lease tenant",
+   "properties": 148,
+   "pin": "pin/valvoline.png",
+   "pinW": 48,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 29.5,
+   "barY": 7.5,
+   "tileW": 41,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/valvoline.png",
+   "names": [
+    "Valvoline"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/34/Valvoline_company_logo.svg"
+  },
+  "wells-fargo-home-mortgage": {
+   "brand": "Wells Fargo Home Mortgage",
+   "kind": "net lease tenant",
+   "properties": 144,
+   "pin": "pin/wells-fargo-home-mortgage.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wells-fargo-home-mortgage.png",
+   "names": [
+    "Wells Fargo Home Mortgage"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282020%29.svg"
+  },
+  "truist-atm": {
+   "brand": "Truist - ATM",
+   "kind": "net lease tenant",
+   "properties": 142,
+   "pin": "pin/truist-atm.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/truist-atm.png",
+   "names": [
+    "Truist - ATM"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Truist_Financial_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  "harris-teeter": {
+   "brand": "Harris Teeter",
+   "kind": "grocery anchor",
+   "properties": 141,
+   "pin": "pin/harris-teeter.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/harris-teeter.png",
+   "names": [
+    "Harris Teeter"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Harris_Teeter_logo_(2023).svg"
+  },
+  "days-inn": {
+   "brand": "Days Inn",
+   "kind": "hotel flag",
+   "properties": 138,
+   "pin": "pin/days-inn.png",
+   "pinW": 50,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 31.5,
+   "barY": 7.5,
+   "tileW": 43,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/days-inn.png",
+   "prefixes": [
+    "Days Inn"
+   ],
+   "family": "Wyndham",
+   "source": "https://en.wikipedia.org/wiki/File:Days_Inn_logo.svg"
+  },
+  "firestone": {
+   "brand": "Firestone",
+   "kind": "net lease tenant",
+   "properties": 137,
+   "pin": "pin/firestone.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/firestone.png",
+   "names": [
+    "Firestone"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/4/41/Firestone.svg"
+  },
+  "wells-fargo-bank": {
+   "brand": "Wells Fargo Bank",
+   "kind": "net lease tenant",
+   "properties": 136,
+   "pin": "pin/wells-fargo-bank.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wells-fargo-bank.png",
+   "names": [
+    "Wells Fargo Bank"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282020%29.svg"
+  },
+  "murphy-usa": {
+   "brand": "Murphy USA",
+   "kind": "net lease tenant",
+   "properties": 135,
+   "pin": "pin/murphy-usa.png",
+   "pinW": 70,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 51.5,
+   "barY": 7.5,
+   "tileW": 63,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/murphy-usa.png",
+   "names": [
+    "Murphy USA"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Murphy_USA_logo.svg"
+  },
+  "kindercare": {
+   "brand": "KinderCare",
+   "kind": "net lease tenant",
+   "properties": 128,
+   "pin": "pin/kindercare.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/kindercare.png",
+   "names": [
+    "KinderCare"
+   ],
+   "source": "https://www.kc-learning.com/-/media/klc-logo-primary.svg"
+  },
+  "applebee-s": {
+   "brand": "Applebee's",
+   "kind": "net lease tenant",
+   "properties": 122,
+   "pin": "pin/applebee-s.png",
+   "pinW": 58,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 40.0,
+   "barY": 7.5,
+   "tileW": 52,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/applebee-s.png",
+   "names": [
+    "Applebee's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/0/04/AB_Brand_Refresh_Logo_R.svg"
+  },
+  "wawa": {
+   "brand": "Wawa",
+   "kind": "net lease tenant",
+   "properties": 121,
+   "pin": "pin/wawa.png",
+   "pinW": 64,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 46.0,
+   "barY": 7.5,
+   "tileW": 58,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wawa.png",
+   "names": [
+    "Wawa"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Wawa_logo.svg"
+  },
+  "take-5": {
+   "brand": "Take 5",
+   "kind": "net lease tenant",
+   "properties": 120,
+   "pin": "pin/take-5.png",
+   "pinW": 37,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 19.0,
+   "barY": 7.5,
+   "tileW": 31,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/take-5.png",
+   "names": [
+    "Take 5"
+   ],
+   "source": "https://www.take5.com/images/logo/take5-logo.svg"
+  },
+  "popeyes": {
+   "brand": "Popeyes",
+   "kind": "net lease tenant",
+   "properties": 112,
+   "pin": "pin/popeyes.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/popeyes.png",
+   "names": [
+    "Popeyes"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Popeyes_en_letras.png"
+  },
+  "tractor-supply": {
+   "brand": "Tractor Supply",
+   "kind": "net lease tenant",
+   "properties": 110,
+   "pin": "pin/tractor-supply.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/tractor-supply.png",
+   "names": [
+    "Tractor Supply"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/86/TractorSupplyCompanylogo.svg"
+  },
+  "best-western": {
+   "brand": "Best Western",
+   "kind": "hotel family",
+   "properties": 109,
+   "pin": "pin/best-western.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/best-western.png",
+   "family": "Best Western",
+   "prefixes": [
+    "Best Western"
+   ],
+   "contains": [
+    "BEST WESTERN"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/57/Best_Western_Hotels_%26_Resorts_logo.svg"
+  },
+  "carquest": {
+   "brand": "Carquest",
+   "kind": "net lease tenant",
+   "properties": 103,
+   "pin": "pin/carquest.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/carquest.png",
+   "names": [
+    "Carquest"
+   ],
+   "source": "https://www.carquest.com/wp-content/uploads/2024/02/logo-carquest.svg"
+  },
+  "fairfield": {
+   "brand": "Fairfield",
+   "kind": "hotel flag",
+   "properties": 103,
+   "pin": "pin/fairfield.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/fairfield.png",
+   "prefixes": [
+    "Fairfield"
+   ],
+   "family": "Marriott",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/7/79/Fairfield_by_Marriott_logo.png"
+  },
+  "publix": {
+   "brand": "Publix",
+   "kind": "grocery anchor",
+   "properties": 101,
+   "pin": "pin/publix.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/publix.png",
+   "names": [
+    "Publix"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/5f/PublixLogo.svg"
+  },
+  "courtyard": {
+   "brand": "Courtyard",
+   "kind": "hotel flag",
+   "properties": 101,
+   "pin": "pin/courtyard.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/courtyard.png",
+   "prefixes": [
+    "Courtyard"
+   ],
+   "family": "Marriott",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/34/Courtyard_by_Marriott_logo.svg"
+  },
+  "quiktrip": {
+   "brand": "QuikTrip",
+   "kind": "net lease tenant",
+   "properties": 99,
+   "pin": "pin/quiktrip.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/quiktrip.png",
+   "names": [
+    "QuikTrip"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/QuikTrip_new_logo.svg"
+  },
+  "wells-fargo": {
+   "brand": "Wells Fargo",
+   "kind": "net lease tenant",
+   "properties": 97,
+   "pin": "pin/wells-fargo.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wells-fargo.png",
+   "names": [
+    "Wells Fargo"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282020%29.svg"
+  },
+  "verizon": {
+   "brand": "Verizon",
+   "kind": "net lease tenant",
+   "properties": 97,
+   "pin": "pin/verizon.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/verizon.png",
+   "names": [
+    "Verizon"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/83/Verizon_2024.svg"
+  },
+  "united-bank": {
+   "brand": "United Bank",
+   "kind": "net lease tenant",
+   "properties": 94,
+   "pin": "pin/united-bank.png",
+   "pinW": 77,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 58.5,
+   "barY": 7.5,
+   "tileW": 70,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/united-bank.png",
+   "names": [
+    "United Bank"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/b/ba/United_Bank_%28UBSI%29_Logo.png"
+  },
+  "dairy-queen": {
+   "brand": "Dairy Queen",
+   "kind": "net lease tenant",
+   "properties": 92,
+   "pin": "pin/dairy-queen.png",
+   "pinW": 49,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 30.5,
+   "barY": 7.5,
+   "tileW": 42,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/dairy-queen.png",
+   "names": [
+    "Dairy Queen"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dairy_Queen_logo.svg"
+  },
+  "davita": {
+   "brand": "DaVita",
+   "kind": "net lease tenant",
+   "properties": 91,
+   "pin": "pin/davita.png",
+   "pinW": 56,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 37.5,
+   "barY": 7.5,
+   "tileW": 49,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/davita.png",
+   "names": [
+    "DaVita"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d3/DaVita_Inc_logo.png"
+  },
+  "chipotle": {
+   "brand": "Chipotle",
+   "kind": "net lease tenant",
+   "properties": 90,
+   "pin": "pin/chipotle.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/chipotle.png",
+   "names": [
+    "Chipotle"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Chipotle_Mexican_Grill_logo.svg"
+  },
+  "pnc": {
+   "brand": "PNC",
+   "kind": "net lease tenant",
+   "properties": 88,
+   "pin": "pin/pnc.png",
+   "pinW": 85,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 67.0,
+   "barY": 7.5,
+   "tileW": 79,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/pnc.png",
+   "names": [
+    "PNC"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/1/1b/PNClogo.svg"
+  },
+  "super-8": {
+   "brand": "Super 8",
+   "kind": "hotel flag",
+   "properties": 88,
+   "pin": "pin/super-8.png",
+   "pinW": 57,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 39.0,
+   "barY": 7.5,
+   "tileW": 51,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/super-8.png",
+   "prefixes": [
+    "Super 8"
+   ],
+   "family": "Wyndham",
+   "source": "https://www.wyndhamhotels.com/content/dam/images/global/logos/se_bywynd_rgb_pos.svg"
+  },
+  "cracker-barrel": {
+   "brand": "Cracker Barrel",
+   "kind": "net lease tenant",
+   "properties": 86,
+   "pin": "pin/cracker-barrel.png",
+   "pinW": 56,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 38.0,
+   "barY": 7.5,
+   "tileW": 50,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/cracker-barrel.png",
+   "names": [
+    "Cracker Barrel"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Cracker_Barrel_logo.svg"
+  },
+  "red-roof": {
+   "brand": "Red Roof",
+   "kind": "hotel family",
+   "properties": 84,
+   "pin": "pin/red-roof.png",
+   "pinW": 73,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 54.5,
+   "barY": 7.5,
+   "tileW": 66,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/red-roof.png",
+   "family": "Red Roof",
+   "prefixes": [
+    "Red Roof"
+   ],
+   "contains": [
+    "RED ROOF"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Roof_logo.svg"
+  },
+  "discount-tire": {
+   "brand": "Discount Tire",
+   "kind": "net lease tenant",
+   "properties": 81,
+   "pin": "pin/discount-tire.png",
+   "pinW": 83,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 64.5,
+   "barY": 7.5,
+   "tileW": 76,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/discount-tire.png",
+   "names": [
+    "Discount Tire"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/37/Discount_Tire_Logo.png"
+  },
+  "southstate-bank": {
+   "brand": "SouthState Bank",
+   "kind": "net lease tenant",
+   "properties": 78,
+   "pin": "pin/southstate-bank.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/southstate-bank.png",
+   "names": [
+    "SouthState Bank"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/South_State_Bank_logo.svg"
+  },
+  "autobell": {
+   "brand": "Autobell",
+   "kind": "net lease tenant",
+   "properties": 77,
+   "pin": "pin/autobell.png",
+   "pinW": 39,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.5,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/autobell.png",
+   "names": [
+    "Autobell"
+   ],
+   "source": "https://cms.autobell.com/app/uploads/2024/05/autobell-logo.png"
+  },
+  "meineke": {
+   "brand": "Meineke",
+   "kind": "net lease tenant",
+   "properties": 77,
+   "pin": "pin/meineke.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/meineke.png",
+   "names": [
+    "Meineke"
+   ],
+   "source": "https://images.ctfassets.net/dkq07unc94tv/5d5treWw3qjYexZkbC4H3p/15f9194b4eb983a98aacd6e4ab3c45af/US-Primarylogo-Meineke-Yellow.svg"
+  },
+  "panera-bread": {
+   "brand": "Panera Bread",
+   "kind": "net lease tenant",
+   "properties": 76,
+   "pin": "pin/panera-bread.png",
+   "pinW": 72,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 54.0,
+   "barY": 7.5,
+   "tileW": 66,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/panera-bread.png",
+   "names": [
+    "Panera Bread"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/4/49/Panera_Bread_wordmark.svg"
+  },
+  "spinx": {
+   "brand": "Spinx",
+   "kind": "net lease tenant",
+   "properties": 75,
+   "pin": "pin/spinx.png",
+   "pinW": 52,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 34.0,
+   "barY": 7.5,
+   "tileW": 46,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/spinx.png",
+   "names": [
+    "Spinx"
+   ],
+   "source": "https://www.myspinx.com/wp-content/uploads/2023/01/SpinxLogo.png"
+  },
+  "ihop": {
+   "brand": "IHOP",
+   "kind": "net lease tenant",
+   "properties": 75,
+   "pin": "pin/ihop.png",
+   "pinW": 56,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 38.0,
+   "barY": 7.5,
+   "tileW": 50,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/ihop.png",
+   "names": [
+    "IHOP"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/ad/IHOP_logo.svg"
+  },
+  "biscuitville": {
+   "brand": "Biscuitville",
+   "kind": "net lease tenant",
+   "properties": 74,
+   "pin": "pin/biscuitville.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/biscuitville.png",
+   "names": [
+    "Biscuitville"
+   ],
+   "source": "https://www.biscuitville.com/wp-content/uploads/2024/09/logo.svg"
+  },
+  "little-caesars": {
+   "brand": "Little Caesars",
+   "kind": "net lease tenant",
+   "properties": 73,
+   "pin": "pin/little-caesars.png",
+   "pinW": 78,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 60.0,
+   "barY": 7.5,
+   "tileW": 72,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/little-caesars.png",
+   "names": [
+    "Little Caesars"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Little_Caesars_logo.svg"
+  },
+  "hilton-garden-inn": {
+   "brand": "Hilton Garden Inn",
+   "kind": "hotel flag",
+   "properties": 73,
+   "pin": "pin/hilton-garden-inn.png",
+   "pinW": 77,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 59.0,
+   "barY": 7.5,
+   "tileW": 71,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/hilton-garden-inn.png",
+   "prefixes": [
+    "Hilton Garden Inn"
+   ],
+   "family": "Hilton",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/4/44/HGI-Logo-Color_HR.png"
+  },
+  "caliber-collision": {
+   "brand": "Caliber Collision",
+   "kind": "net lease tenant",
+   "properties": 72,
+   "pin": "pin/caliber-collision.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/caliber-collision.png",
+   "names": [
+    "Caliber Collision"
+   ],
+   "source": "https://www.caliber.com (inline header logo SVG)"
+  },
+  "first-bank": {
+   "brand": "First Bank",
+   "kind": "net lease tenant",
+   "properties": 71,
+   "pin": "pin/first-bank.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/first-bank.png",
+   "names": [
+    "First Bank"
+   ],
+   "source": "https://localfirstbank.com/wp-content/uploads/2021/02/First_Bank_Logo.png"
+  },
+  "phillips-66": {
+   "brand": "Phillips 66",
+   "kind": "net lease tenant",
+   "properties": 69,
+   "pin": "pin/phillips-66.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/phillips-66.png",
+   "names": [
+    "Phillips 66"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Phillips_66_logo.svg"
+  },
+  "fifth-third-bank": {
+   "brand": "Fifth Third Bank",
+   "kind": "net lease tenant",
+   "properties": 69,
+   "pin": "pin/fifth-third-bank.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/fifth-third-bank.png",
+   "names": [
+    "Fifth Third Bank"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/28/Fifth_Third_Bank_logo_%282023%2C_horizontal%2C_color_with_blue_wordmark%29.svg"
+  },
+  "holiday-inn-express": {
+   "brand": "Holiday Inn Express",
+   "kind": "hotel flag",
+   "properties": 69,
+   "pin": "pin/holiday-inn-express.png",
+   "pinW": 49,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 30.5,
+   "barY": 7.5,
+   "tileW": 42,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/holiday-inn-express.png",
+   "prefixes": [
+    "Holiday Inn Express"
+   ],
+   "family": "IHG",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/7/75/Holiday_Inn_Express_by_IHG_logo.svg"
+  },
+  "atlantic-union-bank": {
+   "brand": "Atlantic Union Bank",
+   "kind": "net lease tenant",
+   "properties": 67,
+   "pin": "pin/atlantic-union-bank.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/atlantic-union-bank.png",
+   "names": [
+    "Atlantic Union Bank"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/94/Atlantic_Union_Bank_logo.svg"
+  },
+  "papa-john-s": {
+   "brand": "Papa John's",
+   "kind": "net lease tenant",
+   "properties": 66,
+   "pin": "pin/papa-john-s.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/papa-john-s.png",
+   "names": [
+    "Papa John's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/92/Papa_Johns_logo.svg"
+  },
+  "residence-inn": {
+   "brand": "Residence Inn",
+   "kind": "hotel flag",
+   "properties": 65,
+   "pin": "pin/residence-inn.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/residence-inn.png",
+   "prefixes": [
+    "Residence Inn"
+   ],
+   "family": "Marriott",
+   "source": "https://en.wikipedia.org/wiki/File:Residence_Inn_by_Marriott_logo.png"
+  },
+  "mattress-firm": {
+   "brand": "Mattress Firm",
+   "kind": "net lease tenant",
+   "properties": 64,
+   "pin": "pin/mattress-firm.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/mattress-firm.png",
+   "names": [
+    "Mattress Firm"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/4/44/Mattress_Firm_logo.svg"
+  },
+  "captain-d-s": {
+   "brand": "Captain D's",
+   "kind": "net lease tenant",
+   "properties": 64,
+   "pin": "pin/captain-d-s.png",
+   "pinW": 37,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 19.0,
+   "barY": 7.5,
+   "tileW": 31,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/captain-d-s.png",
+   "names": [
+    "Captain D's"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:CaptainDsLogo2018.png"
+  },
+  "childcare-network": {
+   "brand": "Childcare Network",
+   "kind": "net lease tenant",
+   "properties": 63,
+   "pin": "pin/childcare-network.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/childcare-network.png",
+   "names": [
+    "Childcare Network"
+   ],
+   "source": "https://childcarenetwork.com/wp-content/uploads/2024/09/Childcare-Network_Vertical_White_RGB-cropped.svg"
+  },
+  "home2": {
+   "brand": "Home2",
+   "kind": "hotel flag",
+   "properties": 62,
+   "pin": "pin/home2.png",
+   "pinW": 61,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 42.5,
+   "barY": 7.5,
+   "tileW": 54,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/home2.png",
+   "prefixes": [
+    "Home2"
+   ],
+   "family": "Hilton",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Home2_Suites_by_Hilton_logo.svg"
+  },
+  "lidl": {
+   "brand": "Lidl",
+   "kind": "net lease tenant",
+   "properties": 60,
+   "pin": "pin/lidl.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/lidl.png",
+   "names": [
+    "Lidl"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Lidl-Logo.svg"
+  },
+  "lowes-foods": {
+   "brand": "Lowes Foods",
+   "kind": "grocery anchor",
+   "properties": 60,
+   "pin": "pin/lowes-foods.png",
+   "pinW": 51,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 32.5,
+   "barY": 7.5,
+   "tileW": 44,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/lowes-foods.png",
+   "names": [
+    "Lowes Foods"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lowesfoods.svg"
+  },
+  "strickland-brothers": {
+   "brand": "Strickland Brothers",
+   "kind": "net lease tenant",
+   "properties": 60,
+   "pin": "pin/strickland-brothers.png",
+   "pinW": 57,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 38.5,
+   "barY": 7.5,
+   "tileW": 50,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/strickland-brothers.png",
+   "names": [
+    "Strickland Brothers"
+   ],
+   "source": "https://sboilchange.com/wp-content/uploads/2025/01/pop_logo.svg"
+  },
+  "goddard-school": {
+   "brand": "Goddard School",
+   "kind": "net lease tenant",
+   "properties": 59,
+   "pin": "pin/goddard-school.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/goddard-school.png",
+   "names": [
+    "Goddard School"
+   ],
+   "source": "https://www.goddardschool.com/content/dam/global/assets/logos/GS_Logo_Full_Blue.svg"
+  },
+  "olive-garden": {
+   "brand": "Olive Garden",
+   "kind": "net lease tenant",
+   "properties": 57,
+   "pin": "pin/olive-garden.png",
+   "pinW": 45,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 27.0,
+   "barY": 7.5,
+   "tileW": 39,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/olive-garden.png",
+   "names": [
+    "Olive Garden"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Olive_Garden_Logo.svg"
+  },
+  "kangaroo-express": {
+   "brand": "Kangaroo Express",
+   "kind": "net lease tenant",
+   "properties": 57,
+   "pin": "pin/kangaroo-express.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/kangaroo-express.png",
+   "names": [
+    "Kangaroo Express"
+   ],
+   "source": "https://kangarooexpress.com/wp-content/uploads/2018/07/KELogo.png"
+  },
+  "first-horizon-bank": {
+   "brand": "First Horizon Bank",
+   "kind": "net lease tenant",
+   "properties": 55,
+   "pin": "pin/first-horizon-bank.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/first-horizon-bank.png",
+   "names": [
+    "First Horizon Bank"
+   ],
+   "source": "https://fhb-p-001.sitecorecontenthub.cloud/api/public/content/otj-zp-essk534z4y7m0na-first-horizon-logo.svg?v=849932e2"
+  },
+  "bi-lo": {
+   "brand": "BI-LO",
+   "kind": "grocery anchor",
+   "properties": 54,
+   "pin": "pin/bi-lo.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/bi-lo.png",
+   "names": [
+    "BI-LO"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/67/BI-LO_Logo.svg"
+  },
+  "panda-express": {
+   "brand": "Panda Express",
+   "kind": "net lease tenant",
+   "properties": 54,
+   "pin": "pin/panda-express.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/panda-express.png",
+   "names": [
+    "Panda Express"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Panda_Express_logo.svg"
+  },
+  "motel-6": {
+   "brand": "Motel 6",
+   "kind": "hotel flag",
+   "properties": 53,
+   "pin": "pin/motel-6.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/motel-6.png",
+   "prefixes": [
+    "Motel 6"
+   ],
+   "family": "G6",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Motel-6-logo.svg"
+  },
+  "springhill-suites": {
+   "brand": "Springhill Suites",
+   "kind": "hotel flag",
+   "properties": 51,
+   "pin": "pin/springhill-suites.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/springhill-suites.png",
+   "prefixes": [
+    "Springhill Suites"
+   ],
+   "family": "Marriott",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/fe/SpringHill_Suites_logo.svg"
+  },
+  "zips-car-wash": {
+   "brand": "Zips Car Wash",
+   "kind": "net lease tenant",
+   "properties": 51,
+   "pin": "pin/zips-car-wash.png",
+   "pinW": 42,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 24.0,
+   "barY": 7.5,
+   "tileW": 36,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/zips-car-wash.png",
+   "names": [
+    "Zips Car Wash"
+   ],
+   "source": "https://zipscarwash.com/storage/zips/zips-logo.svg"
+  },
+  "primrose-schools": {
+   "brand": "Primrose Schools",
+   "kind": "net lease tenant",
+   "properties": 50,
+   "pin": "pin/primrose-schools.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/primrose-schools.png",
+   "names": [
+    "Primrose Schools"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Primrose_Schools_logo.png"
+  },
+  "bb-t": {
+   "brand": "BB&T",
+   "kind": "net lease tenant",
+   "properties": 47,
+   "pin": "pin/bb-t.png",
+   "pinW": 78,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 60.0,
+   "barY": 7.5,
+   "tileW": 72,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/bb-t.png",
+   "names": [
+    "BB&T"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d5/BB%26T_Logo.svg"
+  },
+  "extended-stay-america": {
+   "brand": "Extended Stay America",
+   "kind": "hotel flag",
+   "properties": 47,
+   "pin": "pin/extended-stay-america.png",
+   "pinW": 80,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 62.0,
+   "barY": 7.5,
+   "tileW": 74,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/extended-stay-america.png",
+   "prefixes": [
+    "Extended Stay America"
+   ],
+   "family": "Extended Stay",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/65/Extended_Stay_America_logo.svg"
+  },
+  "harris-teeter-pharmacy": {
+   "brand": "Harris Teeter Pharmacy",
+   "kind": "grocery anchor",
+   "properties": 46,
+   "pin": "pin/harris-teeter-pharmacy.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/harris-teeter-pharmacy.png",
+   "names": [
+    "Harris Teeter Pharmacy"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Harris_Teeter_logo_(2023).svg"
+  },
+  "homewood-suites": {
+   "brand": "Homewood Suites",
+   "kind": "hotel flag",
+   "properties": 46,
+   "pin": "pin/homewood-suites.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/homewood-suites.png",
+   "prefixes": [
+    "Homewood Suites"
+   ],
+   "family": "Hilton",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Homewood_Suites_logo_%282021%29.svg"
+  },
+  "bank-of-america-financial-center": {
+   "brand": "Bank of America Financial Center",
+   "kind": "net lease tenant",
+   "properties": 46,
+   "pin": "pin/bank-of-america-financial-center.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/bank-of-america-financial-center.png",
+   "names": [
+    "Bank of America Financial Center"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bank_of_America_logo.svg"
+  },
+  "tru-by-hilton": {
+   "brand": "Tru By Hilton",
+   "kind": "hotel flag",
+   "properties": 46,
+   "pin": "pin/tru-by-hilton.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/tru-by-hilton.png",
+   "prefixes": [
+    "Tru By Hilton"
+   ],
+   "family": "Hilton",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Tru_by_Hilton_logo.svg"
+  },
+  "tidal-wave-auto-spa": {
+   "brand": "Tidal Wave Auto Spa",
+   "kind": "net lease tenant",
+   "properties": 46,
+   "pin": "pin/tidal-wave-auto-spa.png",
+   "pinW": 55,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 36.5,
+   "barY": 7.5,
+   "tileW": 48,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/tidal-wave-auto-spa.png",
+   "names": [
+    "Tidal Wave Auto Spa"
+   ],
+   "source": "https://i0.wp.com/www.tidalwaveautospa.com/wp-content/uploads/2023/06/header-logo%402x.png"
+  },
+  "texas-roadhouse": {
+   "brand": "Texas Roadhouse",
+   "kind": "net lease tenant",
+   "properties": 45,
+   "pin": "pin/texas-roadhouse.png",
+   "pinW": 56,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 38.0,
+   "barY": 7.5,
+   "tileW": 50,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/texas-roadhouse.png",
+   "names": [
+    "Texas Roadhouse"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Texas_Roadhouse.svg"
+  },
+  "hyatt": {
+   "brand": "Hyatt",
+   "kind": "hotel family",
+   "properties": 44,
+   "pin": "pin/hyatt.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/hyatt.png",
+   "family": "Hyatt",
+   "contains": [
+    "HYATT"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hyatt_Logo.svg"
+  },
+  "bank-of-america": {
+   "brand": "Bank Of America",
+   "kind": "net lease tenant",
+   "properties": 44,
+   "pin": "pin/bank-of-america.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/bank-of-america.png",
+   "names": [
+    "Bank Of America"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bank_of_America_logo.svg"
+  },
+  "golden-corral": {
+   "brand": "Golden Corral",
+   "kind": "net lease tenant",
+   "properties": 43,
+   "pin": "pin/golden-corral.png",
+   "pinW": 50,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 31.5,
+   "barY": 7.5,
+   "tileW": 43,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/golden-corral.png",
+   "names": [
+    "Golden Corral"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Golden_Corral_logo.svg"
+  },
+  "express-oil-change": {
+   "brand": "Express Oil Change",
+   "kind": "net lease tenant",
+   "properties": 43,
+   "pin": "pin/express-oil-change.png",
+   "pinW": 47,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 28.5,
+   "barY": 7.5,
+   "tileW": 40,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/express-oil-change.png",
+   "names": [
+    "Express Oil Change"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Express_Oil_Change_%26_Tire_Engineers_Logo.png"
+  },
+  "kroger": {
+   "brand": "Kroger",
+   "kind": "grocery anchor",
+   "properties": 43,
+   "pin": "pin/kroger.png",
+   "pinW": 72,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 54.0,
+   "barY": 7.5,
+   "tileW": 66,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/kroger.png",
+   "names": [
+    "Kroger"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Kroger_(2021)_logo.svg"
+  },
+  "goodyear": {
+   "brand": "Goodyear",
+   "kind": "net lease tenant",
+   "properties": 43,
+   "pin": "pin/goodyear.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/goodyear.png",
+   "names": [
+    "Goodyear"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Goodyear_Logo_2025.svg"
+  },
+  "country-inn": {
+   "brand": "Country Inn",
+   "kind": "hotel flag",
+   "properties": 42,
+   "pin": "pin/country-inn.png",
+   "pinW": 58,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 40.0,
+   "barY": 7.5,
+   "tileW": 52,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/country-inn.png",
+   "prefixes": [
+    "Country Inn"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/30/Country_Inn_%26_Suites_Radisson_logo.svg"
+  },
+  "baymont": {
+   "brand": "Baymont",
+   "kind": "hotel flag",
+   "properties": 41,
+   "pin": "pin/baymont.png",
+   "pinW": 72,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 53.5,
+   "barY": 7.5,
+   "tileW": 65,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/baymont.png",
+   "prefixes": [
+    "Baymont"
+   ],
+   "family": "Wyndham",
+   "source": "https://www.wyndhamhotels.com/content/dam/images/global/logos/bu_bywynd_rgb_pos.svg"
+  },
+  "royal-farms": {
+   "brand": "Royal Farms",
+   "kind": "net lease tenant",
+   "properties": 41,
+   "pin": "pin/royal-farms.png",
+   "pinW": 63,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 44.5,
+   "barY": 7.5,
+   "tileW": 56,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/royal-farms.png",
+   "names": [
+    "Royal Farms"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/98/Royal_Farms_logo.svg"
+  },
+  "midas": {
+   "brand": "Midas",
+   "kind": "net lease tenant",
+   "properties": 40,
+   "pin": "pin/midas.png",
+   "pinW": 50,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 31.5,
+   "barY": 7.5,
+   "tileW": 43,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/midas.png",
+   "names": [
+    "Midas"
+   ],
+   "source": "https://static.midas.com/Content/Images/Logos/Midas-Logo-OpenGraph-BlkGold@2x.webp"
+  },
+  "candlewood": {
+   "brand": "Candlewood",
+   "kind": "hotel flag",
+   "properties": 40,
+   "pin": "pin/candlewood.png",
+   "pinW": 58,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 39.5,
+   "barY": 7.5,
+   "tileW": 51,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/candlewood.png",
+   "prefixes": [
+    "Candlewood"
+   ],
+   "family": "IHG",
+   "source": "https://en.wikipedia.org/wiki/File:Candlewood_Suites_by_IHG_logo.svg"
+  },
+  "doubletree": {
+   "brand": "Doubletree",
+   "kind": "hotel flag",
+   "properties": 39,
+   "pin": "pin/doubletree.png",
+   "pinW": 49,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 30.5,
+   "barY": 7.5,
+   "tileW": 42,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/doubletree.png",
+   "prefixes": [
+    "Doubletree"
+   ],
+   "family": "Hilton",
+   "source": "https://en.wikipedia.org/wiki/File:DoubletreeLogo.svg"
+  },
+  "pinnacle-financial-partners": {
+   "brand": "Pinnacle Financial Partners",
+   "kind": "net lease tenant",
+   "properties": 39,
+   "pin": "pin/pinnacle-financial-partners.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/pinnacle-financial-partners.png",
+   "names": [
+    "Pinnacle Financial Partners"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pinnacle_Financial_Partners_logo.svg"
+  },
+  "la-quinta": {
+   "brand": "La Quinta",
+   "kind": "hotel flag",
+   "properties": 38,
+   "pin": "pin/la-quinta.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/la-quinta.png",
+   "prefixes": [
+    "La Quinta"
+   ],
+   "family": "Wyndham",
+   "source": "https://www.wyndhamhotels.com/content/dam/images/global/logos/lq_bywynd_rgb_pos.svg"
+  },
+  "t-mobile": {
+   "brand": "T-Mobile",
+   "kind": "net lease tenant",
+   "properties": 36,
+   "pin": "pin/t-mobile.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/t-mobile.png",
+   "names": [
+    "T-Mobile"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/88/T-Mobile_US_Logo_2022_RGB_Magenta_on_Transparent.svg"
+  },
+  "quality-inn": {
+   "brand": "Quality Inn",
+   "kind": "hotel flag",
+   "properties": 36,
+   "pin": "pin/quality-inn.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 19.5,
+   "barY": 7.5,
+   "tileW": 31,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/quality-inn.png",
+   "prefixes": [
+    "Quality Inn"
+   ],
+   "family": "Choice",
+   "source": "https://en.wikipedia.org/wiki/File:Quality_Inn_logo.svg"
+  },
+  "bank-of-america-atm": {
+   "brand": "Bank of America ATM",
+   "kind": "net lease tenant",
+   "properties": 36,
+   "pin": "pin/bank-of-america-atm.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/bank-of-america-atm.png",
+   "names": [
+    "Bank of America ATM"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bank_of_America_logo.svg"
+  },
+  "the-fresh-market": {
+   "brand": "The Fresh Market",
+   "kind": "grocery anchor",
+   "properties": 35,
+   "pin": "pin/the-fresh-market.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/the-fresh-market.png",
+   "names": [
+    "The Fresh Market"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Fresh_Market_logo.svg"
+  },
+  "microtel": {
+   "brand": "Microtel",
+   "kind": "hotel flag",
+   "properties": 35,
+   "pin": "pin/microtel.png",
+   "pinW": 65,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 46.5,
+   "barY": 7.5,
+   "tileW": 58,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/microtel.png",
+   "prefixes": [
+    "Microtel"
+   ],
+   "family": "Wyndham",
+   "source": "https://www.wyndhamhotels.com/content/dam/images/global/logos/mt_bywynd_rgb_pos.svg"
+  },
+  "culver-s": {
+   "brand": "Culver's",
+   "kind": "net lease tenant",
+   "properties": 35,
+   "pin": "pin/culver-s.png",
+   "pinW": 62,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 44.0,
+   "barY": 7.5,
+   "tileW": 56,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/culver-s.png",
+   "names": [
+    "Culver's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Culver%27s_logo.svg"
+  },
+  "navy-federal-credit-union": {
+   "brand": "Navy Federal Credit Union",
+   "kind": "net lease tenant",
+   "properties": 35,
+   "pin": "pin/navy-federal-credit-union.png",
+   "pinW": 52,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 34.0,
+   "barY": 7.5,
+   "tileW": 46,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/navy-federal-credit-union.png",
+   "names": [
+    "Navy Federal Credit Union"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Navy_Federal_Credit_Union_Logo.svg"
+  },
+  "hyatt-place": {
+   "brand": "Hyatt Place",
+   "kind": "hotel flag",
+   "properties": 34,
+   "pin": "pin/hyatt-place.png",
+   "pinW": 37,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.5,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/hyatt-place.png",
+   "prefixes": [
+    "Hyatt Place"
+   ],
+   "family": "Hyatt",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hyatt_Place_logo.svg"
+  },
+  "wells-fargo-atm": {
+   "brand": "Wells Fargo ATM",
+   "kind": "net lease tenant",
+   "properties": 33,
+   "pin": "pin/wells-fargo-atm.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wells-fargo-atm.png",
+   "names": [
+    "Wells Fargo ATM"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282020%29.svg"
+  },
+  "learning-experience": {
+   "brand": "Learning Experience",
+   "kind": "net lease tenant",
+   "properties": 32,
+   "pin": "pin/learning-experience.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/learning-experience.png",
+   "names": [
+    "Learning Experience"
+   ],
+   "source": "https://thelearningexperience.com/wp-content/uploads/2023/09/TLE-Logo.svg"
+  },
+  "kiddie-academy": {
+   "brand": "Kiddie Academy",
+   "kind": "net lease tenant",
+   "properties": 31,
+   "pin": "pin/kiddie-academy.png",
+   "pinW": 58,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 40.0,
+   "barY": 7.5,
+   "tileW": 52,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/kiddie-academy.png",
+   "names": [
+    "Kiddie Academy"
+   ],
+   "source": "https://kiddieacademy.com/wp-content/themes/kiddieacademy/assets/img/2023-refresh/kiddie-academy-logo-stacked.svg"
+  },
+  "pnc-atm": {
+   "brand": "PNC ATM",
+   "kind": "net lease tenant",
+   "properties": 29,
+   "pin": "pin/pnc-atm.png",
+   "pinW": 85,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 67.0,
+   "barY": 7.5,
+   "tileW": 79,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/pnc-atm.png",
+   "names": [
+    "PNC ATM"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/1/1b/PNClogo.svg"
+  },
+  "rite-aid": {
+   "brand": "Rite Aid",
+   "kind": "net lease tenant",
+   "properties": 29,
+   "pin": "pin/rite-aid.png",
+   "pinW": 61,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 43.0,
+   "barY": 7.5,
+   "tileW": 55,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/rite-aid.png",
+   "names": [
+    "Rite Aid"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Rite_aid_logo_2021.svg"
+  },
+  "whole-foods-market": {
+   "brand": "Whole Foods Market",
+   "kind": "grocery anchor",
+   "properties": 29,
+   "pin": "pin/whole-foods-market.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/whole-foods-market.png",
+   "names": [
+    "Whole Foods Market"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Whole_Foods_Market_201x_logo.svg"
+  },
+  "harbor-freight": {
+   "brand": "Harbor Freight",
+   "kind": "net lease tenant",
+   "properties": 28,
+   "pin": "pin/harbor-freight.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/harbor-freight.png",
+   "names": [
+    "Harbor Freight"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Harbor_Freight_Logo.png"
+  },
+  "towneplace": {
+   "brand": "Towneplace",
+   "kind": "hotel flag",
+   "properties": 28,
+   "pin": "pin/towneplace.png",
+   "pinW": 73,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 54.5,
+   "barY": 7.5,
+   "tileW": 66,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/towneplace.png",
+   "prefixes": [
+    "Towneplace"
+   ],
+   "family": "Marriott",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e6/TownePlace_Suites_logo.svg"
+  },
+  "checkers": {
+   "brand": "Checkers",
+   "kind": "net lease tenant",
+   "properties": 27,
+   "pin": "pin/checkers.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/checkers.png",
+   "names": [
+    "Checkers"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Checkers_and_Rally%27s_logo_(2025).svg"
+  },
+  "trader-joe-s": {
+   "brand": "Trader Joe's",
+   "kind": "grocery anchor",
+   "properties": 26,
+   "pin": "pin/trader-joe-s.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/trader-joe-s.png",
+   "names": [
+    "Trader Joe's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Trader_Joes_Logo.svg"
+  },
+  "grease-monkey": {
+   "brand": "Grease Monkey",
+   "kind": "net lease tenant",
+   "properties": 26,
+   "pin": "pin/grease-monkey.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/grease-monkey.png",
+   "names": [
+    "Grease Monkey"
+   ],
+   "source": "https://www.greasemonkey.com/wp-content/uploads/sites/2/2025/07/grease-monkey-logo.svg"
+  },
+  "at-t": {
+   "brand": "AT&T",
+   "kind": "net lease tenant",
+   "properties": 26,
+   "pin": "pin/at-t.png",
+   "pinW": 67,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 48.5,
+   "barY": 7.5,
+   "tileW": 60,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/at-t.png",
+   "names": [
+    "AT&T"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/3/31/AT%26T_logo_2016.svg"
+  },
+  "whataburger": {
+   "brand": "Whataburger",
+   "kind": "net lease tenant",
+   "properties": 26,
+   "pin": "pin/whataburger.png",
+   "pinW": 39,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.0,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/whataburger.png",
+   "names": [
+    "Whataburger"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/94/Whataburger_logo.svg"
+  },
+  "save-a-lot": {
+   "brand": "Save A Lot",
+   "kind": "grocery anchor",
+   "properties": 25,
+   "pin": "pin/save-a-lot.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/save-a-lot.png",
+   "names": [
+    "Save A Lot"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Save_A_Lot_logo.svg"
+  },
+  "huddle-house": {
+   "brand": "Huddle House",
+   "kind": "net lease tenant",
+   "properties": 24,
+   "pin": "pin/huddle-house.png",
+   "pinW": 38,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 20.0,
+   "barY": 7.5,
+   "tileW": 32,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/huddle-house.png",
+   "names": [
+    "Huddle House"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Huddle_House_logo.svg"
+  },
+  "patient-first": {
+   "brand": "Patient First",
+   "kind": "net lease tenant",
+   "properties": 24,
+   "pin": "pin/patient-first.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/patient-first.png",
+   "names": [
+    "Patient First"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Patient-First-logo.png"
+  },
+  "econo-lodge": {
+   "brand": "Econo Lodge",
+   "kind": "hotel flag",
+   "properties": 24,
+   "pin": "pin/econo-lodge.png",
+   "pinW": 49,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 31.0,
+   "barY": 7.5,
+   "tileW": 43,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/econo-lodge.png",
+   "prefixes": [
+    "Econo Lodge"
+   ],
+   "family": "Choice",
+   "source": "https://en.wikipedia.org/wiki/File:Econo_Lodge_Logo_(2007-present).svg"
+  },
+  "wingate": {
+   "brand": "Wingate",
+   "kind": "hotel flag",
+   "properties": 23,
+   "pin": "pin/wingate.png",
+   "pinW": 63,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 45.0,
+   "barY": 7.5,
+   "tileW": 57,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wingate.png",
+   "prefixes": [
+    "Wingate"
+   ],
+   "family": "Wyndham",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wingate_by_Wyndham_logo.svg"
+  },
+  "pnc-bank": {
+   "brand": "PNC Bank",
+   "kind": "net lease tenant",
+   "properties": 23,
+   "pin": "pin/pnc-bank.png",
+   "pinW": 85,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 67.0,
+   "barY": 7.5,
+   "tileW": 79,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/pnc-bank.png",
+   "names": [
+    "PNC Bank"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/1/1b/PNClogo.svg"
+  },
+  "chase": {
+   "brand": "Chase",
+   "kind": "net lease tenant",
+   "properties": 23,
+   "pin": "pin/chase.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/chase.png",
+   "names": [
+    "Chase"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Chase_logo_2007.svg"
+  },
+  "gulf": {
+   "brand": "Gulf",
+   "kind": "net lease tenant",
+   "properties": 22,
+   "pin": "pin/gulf.png",
+   "pinW": 40,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.5,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/gulf.png",
+   "names": [
+    "Gulf"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/7/72/Gulf_Oil_logo.svg"
+  },
+  "safeway": {
+   "brand": "Safeway",
+   "kind": "grocery anchor",
+   "properties": 21,
+   "pin": "pin/safeway.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/safeway.png",
+   "names": [
+    "Safeway"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Safeway_Logo.svg"
+  },
+  "comfort-inn": {
+   "brand": "Comfort Inn",
+   "kind": "hotel flag",
+   "properties": 21,
+   "pin": "pin/comfort-inn.png",
+   "pinW": 39,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 21.0,
+   "barY": 7.5,
+   "tileW": 33,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/comfort-inn.png",
+   "prefixes": [
+    "Comfort Inn"
+   ],
+   "family": "Choice",
+   "source": "https://www.choicehotels.com/content/dam/choicehotels/style-guide/logo--comfort.svg"
+  },
+  "chevron": {
+   "brand": "Chevron",
+   "kind": "net lease tenant",
+   "properties": 20,
+   "pin": "pin/chevron.png",
+   "pinW": 36,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 18.0,
+   "barY": 7.5,
+   "tileW": 30,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/chevron.png",
+   "names": [
+    "Chevron"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/8/86/Chevron_Logo.svg"
+  },
+  "planet-fitness": {
+   "brand": "Planet Fitness",
+   "kind": "net lease tenant",
+   "properties": 20,
+   "pin": "pin/planet-fitness.png",
+   "pinW": 70,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 52.0,
+   "barY": 7.5,
+   "tileW": 64,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/planet-fitness.png",
+   "names": [
+    "Planet Fitness"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Planet_Fitness_Logo_2026.png"
+  },
+  "christian-brothers-automotive": {
+   "brand": "Christian Brothers Automotive",
+   "kind": "net lease tenant",
+   "properties": 20,
+   "pin": "pin/christian-brothers-automotive.png",
+   "pinW": 64,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 45.5,
+   "barY": 7.5,
+   "tileW": 57,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/christian-brothers-automotive.png",
+   "names": [
+    "Christian Brothers Automotive"
+   ],
+   "source": "https://www.cbac.com/images/logo.png"
+  },
+  "woodspring": {
+   "brand": "Woodspring",
+   "kind": "hotel flag",
+   "properties": 19,
+   "pin": "pin/woodspring.png",
+   "pinW": 78,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 59.5,
+   "barY": 7.5,
+   "tileW": 71,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/woodspring.png",
+   "prefixes": [
+    "Woodspring"
+   ],
+   "family": "Choice",
+   "source": "https://en.wikipedia.org/wiki/File:WoodSpring_Hotels_logo.png"
+  },
+  "piggly-wiggly-midlands": {
+   "brand": "Piggly Wiggly - Midlands",
+   "kind": "grocery anchor",
+   "properties": 18,
+   "pin": "pin/piggly-wiggly-midlands.png",
+   "pinW": 42,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 23.5,
+   "barY": 7.5,
+   "tileW": 35,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/piggly-wiggly-midlands.png",
+   "names": [
+    "Piggly Wiggly - Midlands"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Pigglywiggly.png"
+  },
+  "staybridge": {
+   "brand": "Staybridge",
+   "kind": "hotel flag",
+   "properties": 18,
+   "pin": "pin/staybridge.png",
+   "pinW": 67,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 49.0,
+   "barY": 7.5,
+   "tileW": 61,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/staybridge.png",
+   "prefixes": [
+    "Staybridge"
+   ],
+   "family": "IHG",
+   "source": "https://en.wikipedia.org/wiki/File:Staybridge_Suites_by_IHG_logo.svg"
+  },
+  "raising-cane-s": {
+   "brand": "Raising Cane's",
+   "kind": "net lease tenant",
+   "properties": 18,
+   "pin": "pin/raising-cane-s.png",
+   "pinW": 60,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 41.5,
+   "barY": 7.5,
+   "tileW": 53,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/raising-cane-s.png",
+   "names": [
+    "Raising Cane's"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/98/Raising_Cane%27s_Chicken_Fingers_logo.svg"
+  },
+  "wells-fargo-advisors": {
+   "brand": "Wells Fargo Advisors",
+   "kind": "net lease tenant",
+   "properties": 17,
+   "pin": "pin/wells-fargo-advisors.png",
+   "pinW": 67,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 48.5,
+   "barY": 7.5,
+   "tileW": 60,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/wells-fargo-advisors.png",
+   "names": [
+    "Wells Fargo Advisors"
+   ],
+   "source": "https://en.wikipedia.org/wiki/File:Wells_Fargo_Advisors.svg"
+  },
+  "aspen-dental": {
+   "brand": "Aspen Dental",
+   "kind": "net lease tenant",
+   "properties": 17,
+   "pin": "pin/aspen-dental.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/aspen-dental.png",
+   "names": [
+    "Aspen Dental"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/99/AspenDental_logo_2025.svg"
+  },
+  "hobby-lobby": {
+   "brand": "Hobby Lobby",
+   "kind": "net lease tenant",
+   "properties": 17,
+   "pin": "pin/hobby-lobby.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/hobby-lobby.png",
+   "names": [
+    "Hobby Lobby"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Hobby_Lobby_logo.svg"
+  },
+  "capital-one-bank": {
+   "brand": "Capital One Bank",
+   "kind": "net lease tenant",
+   "properties": 16,
+   "pin": "pin/capital-one-bank.png",
+   "pinW": 74,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 55.5,
+   "barY": 7.5,
+   "tileW": 67,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/capital-one-bank.png",
+   "names": [
+    "Capital One Bank"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg"
+  },
+  "pep-boys": {
+   "brand": "Pep Boys",
+   "kind": "net lease tenant",
+   "properties": 16,
+   "pin": "pin/pep-boys.png",
+   "pinW": 67,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 48.5,
+   "barY": 7.5,
+   "tileW": 60,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/pep-boys.png",
+   "names": [
+    "Pep Boys"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/58/PB_Auto_Service_Tires_Logo_Stacked_CMYK_EST.png"
+  },
+  "aloft": {
+   "brand": "Aloft",
+   "kind": "hotel flag",
+   "properties": 16,
+   "pin": "pin/aloft.png",
+   "pinW": 60,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 42.0,
+   "barY": 7.5,
+   "tileW": 54,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/aloft.png",
+   "prefixes": [
+    "Aloft"
+   ],
+   "family": "Marriott",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/1/14/Aloft_Hotels_logo.svg"
+  },
+  "four-points": {
+   "brand": "Four Points",
+   "kind": "hotel flag",
+   "properties": 13,
+   "pin": "pin/four-points.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/four-points.png",
+   "prefixes": [
+    "Four Points"
+   ],
+   "family": "Marriott",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Four_Points_Logo_neu.svg"
+  },
+  "sheraton": {
+   "brand": "Sheraton",
+   "kind": "hotel flag",
+   "properties": 13,
+   "pin": "pin/sheraton.png",
+   "pinW": 61,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 43.0,
+   "barY": 7.5,
+   "tileW": 55,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/sheraton.png",
+   "prefixes": [
+    "Sheraton"
+   ],
+   "family": "Marriott",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sheraton_%281%29.svg"
+  },
+  "earth-fare": {
+   "brand": "Earth Fare",
+   "kind": "grocery anchor",
+   "properties": 12,
+   "pin": "pin/earth-fare.png",
+   "pinW": 52,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 34.0,
+   "barY": 7.5,
+   "tileW": 46,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/earth-fare.png",
+   "names": [
+    "Earth Fare"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Earth_Fare_logo.png"
+  },
+  "safeway-pharmacy": {
+   "brand": "Safeway Pharmacy",
+   "kind": "grocery anchor",
+   "properties": 12,
+   "pin": "pin/safeway-pharmacy.png",
+   "pinW": 86,
+   "pinH": 42,
+   "yoff": 17.0,
+   "barW": 68.0,
+   "barY": 7.5,
+   "tileW": 80,
+   "tileH": 30,
+   "tileTop": 35.0,
+   "card": "card/safeway-pharmacy.png",
+   "names": [
+    "Safeway Pharmacy"
+   ],
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Safeway_Logo.svg"
+  }
+ }
+}
